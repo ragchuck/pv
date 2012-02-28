@@ -1,0 +1,365 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Tahoma,Calibri,Verdana,Arial;
+	height:100%;
+	text-align:center;
+	background:snow;
+    overflow-y:scroll;
+}
+
+.wrapper, .ui-state-error, #content, #navigation, #outer_data_load {
+	margin:5px 20px;
+	font-size:0.95em;
+	text-align:left;
+	padding:5px;
+	overflow:show;
+}
+
+div.wrapper{
+	width:1150px;
+	padding:0px;
+	padding-bottom:15px;
+	margin:0px auto;
+	background:white;
+	border-left:1px solid #d0d0d0;
+	border-right:1px solid #d0d0d0;
+	border-bottom:1px solid #d0d0d0;
+	min-height:100%;
+    position:relative;
+}
+h1{
+	width:auto;
+	margin:0 20px 20px 20px;
+	padding-top:100px;
+	border-bottom:1px dotted gray;
+	letter-spacing:1px;
+    color:#505050;
+    text-shadow:1px 1px 5px #EFC01D;
+}
+
+h2{
+	font-size:18px;	
+}
+
+h3{
+    font-size:100%;
+}
+
+h4 {
+	text-align:center;
+	margin:4px;
+}
+
+a {
+    color:gray;
+}
+
+input, select{
+	margin:5px;
+	font-family:Arial;
+	font-size:11px;
+}
+ul  {
+	list-style-type:none;
+	text-align:left;
+	margin:0 auto;
+	padding:0px;
+	font-size:11px;
+}
+ul ul {
+	padding-left:20px;
+}
+
+#noscript {
+    padding:50px 0px;
+    margin:0px;
+    height:100%;
+    display:block;
+    position:absolute;
+    width:100%;
+    background:white;
+    z-index:99;
+}
+
+a.nav_link {
+	display:block;
+	text-decoration:none;
+	color:#666;
+	outline:0px;
+    line-height:1.7em;
+    position:relative;
+}
+.tog {
+	float:left;
+	padding:1px;
+    outline:0px;
+}
+
+.highlight {
+	font-style:italic;
+}
+li a.nav_link:hover {
+	color:#ab3434;
+    font-weight:bold;
+}
+li a.nav_link:hover .vis {
+	visibility:visible;
+}
+.vis {
+	position:absolute;
+    right:0px;
+	visibility:hidden;
+}
+
+.data_close  {
+    position:absolute;
+    right:3px;
+    top:3px;
+}
+
+
+
+.wrapper {
+	padding:0px;
+	margin:0px;
+}
+
+.wrapper > a {
+	float:right;
+	margin-right:20px;
+}
+table.diagramm_outer_table {
+	margin:0 auto;
+	width:100%;
+}
+table.diagramm_data_table {
+	border:1px solid #ccc;
+	padding:1px;
+	margin:0 auto;
+	width:100%;
+	background:white;
+}
+table.diagramm_data_table td,
+table.diagramm_data_table th {
+	margin:0;
+	padding:5px;
+	font-weight:normal;
+}
+table.diagramm_data_table th {
+	background:#FEE88F;
+	font-size:1.2em;
+}
+
+div.diagramm_data_navi {
+	border:1px solid #ccc;
+	margin:0px auto 5px auto;
+	padding:2px;	
+}
+
+div.diagramm_data {
+	width:500px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.value {
+	text-align:right;
+	padding-left:10px;
+} 
+
+.left {
+	text-align:left;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+
+.wetterbox {
+    width:120px;
+    margin:0px auto;
+}
+
+div#outer_data_load {
+    margin:0px auto;
+	text-align:center;
+    position:absolute;
+    top:20px;
+    right:15px;
+    width:700px;
+    display:none;
+}
+div#data_load{
+	text-align:center;
+}
+
+div#navigation {
+	width:250px;
+}
+div#content {
+	float:right;
+	margin:0;
+	padding:0 10px;
+	width:850px;
+}
+#tabs {
+    clear:both;
+}
+#tabs a{
+    outline:0px;
+}
+#accordion {
+    overflow:hidden;
+}
+#diagramm {	
+    position:relative;
+    background:white;
+    border:1px solid #ddd;
+	margin:auto;
+	text-align:center;
+	width:835px;
+	height:330px;
+    padding:0px 10px 10px 0px;
+	float:left;
+    margin:0px 10px 10px 0px;
+}
+#outer_diagramm {
+    width:100%;
+    height:100%;
+}
+#diagramm_info {
+	text-align:center;
+}
+#chart_menu_main li {
+    font-weight:bold;
+    font-size:1.1em;
+}
+#outer_chart_modifier {
+    margin:0px auto;
+    width:500px;
+}
+
+pre {
+	text-align:left;
+}
+
+acronym {
+	cursor:help;
+    text-decoration:none;
+    border:0px;
+}
+
+.pn {
+}
+
+div#footer{
+	color:#aaa;
+	font-size:0.8em;
+	text-align:center;
+    margin-top:5px;
+    margin-bottom:50px;
+}
+
+.center {
+	text-align:center;
+}
+
+.right {
+	text-align:right;
+}
+
+
+table.asb_outer_table {
+}
+
+table.asb_inner_table {
+	background:url('images/back.png') no-repeat 50% 50%;
+	width:350px;
+	height:65px;
+	padding:8px 0;
+	font-size:11px;
+}
+
+table.asb_innter_table th,
+table.asb_inner_table td {
+	padding:0px 15px;
+}
+
+.asb_left {
+	font-weight:bold;
+	text-align:right;
+	width:150px;
+}
+
+.asb_right {
+	font-weight:normal;
+	text-align:left;
+}
+
+.asb {
+	width:690px;
+	border:1px solid #ccc;
+	padding:0 20px;
+	margin:0 auto;
+    background:white;
+}
+.asb_img_container {
+	padding:0 30px;
+}
+.ui-dialog, .ui-widget {
+    font-size:0.75em;
+}
+.ui-widget-content {
+    overflow:hidden;
+}
+.ui-progressbar-value { 
+    background: url('includes/jquery/css/sunny/images/pbar-ani.gif') 0 0 ;
+    text-align:center;
+    padding:3px;
+    overflow:visible;
+}
+.ui-button-icon-only {
+    width:1.75em;
+    height:1.75em;
+}
+#progressbar {
+    padding:0px;
+    height:20px;
+    width:50%;
+    margin:0px auto;
+    overflow:hidden;
+    text-align:center;
+}
+
+#top_info {
+    position:absolute;
+    top:5px;
+    right:15px;
+    color:#0074C7;
+    font-size:0.7em;
+}
+#top_info #login-link {
+    float:right;
+}
+#outer_data_load img {
+    border:0px none;
+}
+#outer_chart_date_picker {
+    border-top:1px dotted gray;
+    padding:5px 15px 0px;
+    margin:5px -15px;
+}
+#chart_date_picker {
+    clear:both;
+    width:7em;
+}
+#chart_date_picker_title {
+    color:#666666;
+    line-height:2.5em;
+    font-weight:bold;
+    display:block;
+    
+}
