@@ -1,7 +1,7 @@
 # Data #
 ########
-daten/verarbeitet/*
-images/charts/*
+daten/verarbeitet/*.*
+images/charts/*.*
 
 
 # Packages #
